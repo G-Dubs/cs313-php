@@ -10,7 +10,7 @@
 									<ultimateSineFunction>
 										<n factorial>
 											<button type = button";
-												if (basename($_SERVER["PHP_SELF"]) == "about-us.php")
+												if (basename($_SERVER["PHP_SELF"]) == "home.php")
 												{
 												   echo(" style = 'background-color:#FF9966' ");
 												}
@@ -31,7 +31,12 @@
 								<tagcubed>
 									<ultimateSineFunction>
 										<n factorial>
-											<button type = button>
+											<button type = button";
+												if (basename($_SERVER["PHP_SELF"]) == "about-us.php")
+												{
+													echo(" style = 'background-color:#FF9966' ");
+												}
+											echo ">
 												About Us
 											</button>
 										</n factorial>
@@ -48,7 +53,12 @@
 								<tagcubed>
 									<ultimateSineFunction>
 										<n factorial>
-											<button type = button>
+											<button type = button";
+												if (basename($_SERVER["PHP_SELF"]) == "login.php")
+												{
+													echo(" style = 'background-color:#FF9966' ");
+												}
+											echo ">
 												Login To Distract Me Not
 											</button>
 										</n factorial>
