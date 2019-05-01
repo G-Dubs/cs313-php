@@ -9,10 +9,10 @@
 								<tagcubed>
 									<ultimateSineFunction>
 										<n factorial>
-											<button type = button ";
-												if ($_SERVER ["PHP_SELF"] == "about-us.php")
+											<button type = button";
+												if ($_SERVER["PHP_SELF"] == "about-us.php")
 												{
-												   echo("style = 'background-color:#FF9966'");
+												   echo(" style = 'background-color:#FF9966' ");
 												}
 											echo ">
 												Distract Me Not Industries LLC.
