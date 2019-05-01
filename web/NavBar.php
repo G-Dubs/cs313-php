@@ -6,9 +6,20 @@
 					<a href = \"home.php\">
 						<tag>
 							<tagtag>
-								<button type = button>
-									Distract Me Not Industries LLC.
-								</button> 
+								<tagcubed>
+									<ultimateSineFunction>
+										<n factorial>
+											<button type = button ";
+												if (__FILE__== "about-us.php")
+												{
+												   echo("style = 'background-color:#FF9966'");
+												}
+											echo ">
+												Distract Me Not Industries LLC.
+											</button>
+										</n factorial>
+									<ultimateSineFunction>
+								</tagcubed>
 							</tagtag>
 						</tag>
 					</a>
@@ -17,9 +28,15 @@
 					<a href = \"about-us.php\">
 						<tag>
 							<tagtag>
-								<button type = button>
-									About Us
-								</button> 
+								<tagcubed>
+									<ultimateSineFunction>
+										<n factorial>
+											<button type = button>
+												About Us
+											</button>
+										</n factorial>
+									<ultimateSineFunction>	
+								</tagcubed> 
 							</tagtag>
 						</tag>
 					</a>
@@ -28,9 +45,15 @@
 					<a href = \"login.php\">
 						<tag>
 							<tagtag>
-								<button type = button>
-									Login To Distract Me Not
-								</button> 
+								<tagcubed>
+									<ultimateSineFunction>
+										<n factorial>
+											<button type = button>
+												Login To Distract Me Not
+											</button>
+										</n factorial>
+									<ultimateSineFunction>			
+								</tagcubed> 
 							</tagtag>
 						</tag>
 					</a>
