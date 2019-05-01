@@ -10,7 +10,7 @@
 									<ultimateSineFunction>
 										<n factorial>
 											<button type = button ";
-												if (__FILE__== "about-us.php")
+												if ($_SERVER ["PHP_SELF"] == "about-us.php")
 												{
 												   echo("style = 'background-color:#FF9966'");
 												}
