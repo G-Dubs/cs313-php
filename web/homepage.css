@@ -25,12 +25,15 @@ body {
 
 #div1 {
     font-size: 72px;
+	display: inline;
 }
 #div3 {
     font-size: 72px;
+	display: inline;
 }
 #div6 {
     font-size: 72px;
+	display: inline;
 }
 
 a {
