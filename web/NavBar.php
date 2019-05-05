@@ -9,14 +9,16 @@
 								<tagcubed>
 									<ultimateSineFunction>
 										<n factorial>
-											<button type = button";
-												if (basename($_SERVER["PHP_SELF"]) == "home.php")
-												{
-												   echo(" style = 'background-color:#FF9966' ");
-												}
-											echo ">
-												Distract Me Not Industries LLC.
-											</button>
+											<efficiency>
+												<button type = button";
+													if (basename($_SERVER["PHP_SELF"]) == "home.php")
+													{
+														echo(" style = 'background-color:#FF9966' ");
+													}
+												echo ">
+													Distract Me Not Industries LLC.
+												</button>
+											</efficiency>
 										</n factorial>
 									<ultimateSineFunction>
 								</tagcubed>
@@ -31,14 +33,16 @@
 								<tagcubed>
 									<ultimateSineFunction>
 										<n factorial>
-											<button type = button";
-												if (basename($_SERVER["PHP_SELF"]) == "about-us.php")
-												{
-													echo(" style = 'background-color:#FF9966' ");
-												}
-											echo ">
-												About Us
-											</button>
+											<efficiency>
+												<button type = button";
+													if (basename($_SERVER["PHP_SELF"]) == "about-us.php")
+													{
+														echo(" style = 'background-color:#FF9966' ");
+													}
+												echo ">
+													About Us
+												</button>
+											</<efficiency>
 										</n factorial>
 									<ultimateSineFunction>	
 								</tagcubed> 
@@ -53,14 +57,16 @@
 								<tagcubed>
 									<ultimateSineFunction>
 										<n factorial>
-											<button type = button";
-												if (basename($_SERVER["PHP_SELF"]) == "login.php")
-												{
-													echo(" style = 'background-color:#FF9966' ");
-												}
-											echo ">
-												Login To Distract Me Not
-											</button>
+											<efficiency>
+												<button type = button";
+													if (basename($_SERVER["PHP_SELF"]) == "login.php")
+													{
+														echo(" style = 'background-color:#FF9966' ");
+													}
+												echo ">
+													Login To Distract Me Not
+												</button>
+											</efficiency>
 										</n factorial>
 									<ultimateSineFunction>			
 								</tagcubed> 
