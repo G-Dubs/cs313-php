@@ -26,19 +26,24 @@
 			
 			<br />
 			
-			<button type="button" id="myButton">Click Me</button> <br />
-
-            <br />
-            <input type="text" size="20" id="colorInput" />
+			<button type="button" id="myButton">Click Me</button>
+			
+			<br />
+            
+			<input type="text" size="20" id="colorInput" />
             <button type="button" id="colorButton" style = 'background-color:#FF0000'>Change color</button>
-            <br />
+            
+			<br />
         </div>
 
 		<br />
 		
-        Type a color name or hexidecimal color code to change the colors of the words.
+        <div id="#text">
+			Type a color name or hexidecimal color code to change the colors of the words.
+		</div>
 
         <br/><br/>
+		
         <a href="https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F"
         target="_blank">List of colors</a>
 
