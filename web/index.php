@@ -30,12 +30,14 @@
             <br />
         </div>
 
+		<br />
+		
         Type a color name or hexidecimal color code to change the colors of the words.
 
         <br/><br/>
         <a href="https://en.wikipedia.org/wiki/List_of_colors:_A%E2%80%93F"
         target="_blank">List of colors</a>
 
-        <script src="team_activity_01.js"></script>
+        <script src="clickme.js"></script>
     </body>
 </html>
