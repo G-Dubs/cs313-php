@@ -15,7 +15,7 @@
             <div id="div3">Stephen</div>
             <div id="div6">Wieland</div>
             
-            
+            <br />
 
             <input type="text" size="10" id="colorInput1" />
             <button type="button" id="colorButton1">Change color</button>
@@ -26,7 +26,7 @@
 			
 			<br />
 			
-			<br /><button type="button" id="myButton">Click Me</button> <br />
+			<button type="button" id="myButton">Click Me</button> <br />
 
             <br />
             <input type="text" size="20" id="colorInput" />
