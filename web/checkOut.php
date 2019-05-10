@@ -6,7 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
 	</head>
 	<body>
-		Hello World
+		<div>
+			Hello World
+		</div>
 	</body>
 </html>
 
