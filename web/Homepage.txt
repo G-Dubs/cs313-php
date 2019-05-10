@@ -1,28 +1,32 @@
 After completing the assignment, please answer the questions in this text file and submit it to I-Learn.
 
-1. Copy and paste the URL for your web application:
+1. Copy and paste the URL for your web application:  https://vast-bastion-22731.herokuapp.com/
 
-
-2. Copy and paste the URL for your source code repository (e.g., GitHub):
-
+2. Copy and paste the URL for your source code repository (e.g., GitHub):  https://github.com/G-Dubs/cs313-php
 
 3. Briefly list and describe the elements of the application that are functioning. Include any special instructions about how to login and/or use your application.
 
+	There is a color changing button that works when you click it.  There are words that become highlighted when you hover over them. There is a link that brings you 
+	to another page.
 
 4. Briefly describe any pieces of the assignment that are not yet working correctly.
 
+	I wanted to link my page of coming soon to this page, but I haven't created it yet.  I wanted the list of colors to open in a different tab, but I forgot how to do
+	that.
 
 5. Briefly describe the "coolest" thing you learned while completing this assignment.
 
+	I realized the heroku server is live.  I was showing my friends the websites that I have made (both by myself and with Tyler).  I thought that was really cool!
+
 6. What is the difference between an HTTP Get and Post? When should each be used?
 
+	Get lets you to request data from a server, and Post lets you send a form to a server.  Each of these should be used when trying to do either of those things.
 
 7. Please select the category you feel best describes your assignment:
-1 - Some attempt was made
-2 - Developing, but significantly deficient
-3 - Slightly deficient, but still mostly adequate
-4 - Meets requirements
-5 - Shows creativity and excels above and beyond requirements
 
+	3 - Slightly deficient, but still mostly adequate
 
 8. Provide a brief justification (1-2 sentences) for selecting that category.
+
+	I reused a lot of the code from our team activity, but it still meets the requirements of the homepage assignment.  I did put some more effort to change it up a
+	little bit.  I also had trouble with some of the plugins that I installed.  VS Code deletes any non-PHP files when I try to save them.
