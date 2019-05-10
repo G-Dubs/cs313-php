@@ -304,13 +304,17 @@
 				<th colspan="3">Item</th>
 				<th>Price</th>
 				<tr>
-					<td><input type="checkbox" id="piccolo" name="item[]" onclick="totalFunction()"></td>
+					<td>
+						<input type="checkbox" id="piccolo" name="item[]" value="Jupiter 330S Piccolo" onclick="totalFunction()">
+					</td>
 					<td><img src="Piccolo.jpg" alt="Jupiter 330S Piccolo" width="100" height="75"></td>
 					<td> Jupiter 330S Piccolo </td>
 					<td> $582.00 </td>
 				</tr>
 				<tr>
-					<td><input type="checkbox" id="saxophone" name="item[]" onclick="totalFunction()"></td>
+					<td>
+						<input type="checkbox" id="saxophone" name="item[]" value="Yamaha YTS-475 Intermediate Tenor Saxophone" onclick="totalFunction()">
+					</td>
 					<td><img src="Saxophone.jpg" alt="Tenor Saxophone" width="100" height="113"></td>
 					<td>
 						Yamaha YTS-475                                                        <br/>
@@ -320,7 +324,9 @@
 					<td> <br/> $2,179.00 </td>
 				</tr>
 				<tr>
-					<td><input type="checkbox" id="trumpet" name="item[]" onclick="totalFunction()"></td>
+					<td>
+						<input type="checkbox" id="trumpet" name="item[]" value="Etude ETR-100 Series B♭ Trumpet" onclick="totalFunction()">
+					</td>
 					<td><img src="Trumpet.jpg" alt="Trumpet" width="100" height="33"></td>
 					<td> 
 						Etude ETR-100 Series                                                  <br/>
@@ -329,7 +335,9 @@
 					<td> <br/> $99.00 </td>
 				</tr>
 				<tr>
-					<td><input type="checkbox" id="cymbals" name="item[]" onclick="totalFunction()"></td>
+					<td>
+						<input type="checkbox" id="cymbals" name="item[]" value="Sambian Xs20 Cymbals Super Set with Free 10\" Splash & 18\" Crash" onclick="totalFunction()">
+					</td>
 					<td><img src="Cymbals.jpg" alt="Cymbals" width="100" height="83"></td>
 					<td>
 						Sambian Xs20 Cymbals                                                  <br/> 
