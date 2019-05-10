@@ -158,7 +158,7 @@
 					phone = false; 
 					message = message + "Phone Number  ";
 				}
-
+				/*
 				if (fq.length < 4)
 				{
 					fq = "";
@@ -200,8 +200,8 @@
 					date = false; 
 					message = message + "Expiration Date";
 				}
-
-				if (!(first) || !(last) || !(add) || !(cit) || !(st) || !(zCode) || !(phone) || !(card) || !(date))  
+				*/
+				if (!(first) || !(last) || !(add) || !(cit) || !(st) || !(zCode) || !(phone) /*|| !(card) || !(date)*/)  
 				{
 					alert("Please refill in the following fields: " + message)
 
@@ -233,6 +233,7 @@
 					{
 						document.getElementById('areacode').focus;
 					}
+					/*
 					else if (!(card))
 					{
 						document.getElementById('firstQuarter').focus;          
@@ -241,16 +242,12 @@
 					{
 						document.getElementById('month').focus;
 					}
+					*/
 					else
 					{
 						//code//
 					} 
 				}
-			}
-
-			function resetFunction() 
-			{
-				document.getElementById("form1").reset();
 			}
 		</script>
 	</head>
@@ -378,8 +375,8 @@
 				</table>
 			</p> 
 			<p>   
-				<input type="button" onclick="resetFunction()" value="Reset">
-				<input type="button" onclick="validate()" value="Submit">
+				<button type="reset" onclick="resetFunction()"> Reset </button>
+				<button type="submit" onclick="validate()"> Submit </button>
 			</p>
 		</form> 
 	</body>
