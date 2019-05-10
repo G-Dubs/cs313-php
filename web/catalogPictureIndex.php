@@ -12,6 +12,7 @@
 		<div>
 			<p>
 				Click on one of the following images to view our catalog.
+				Click on the shopping cart to select items for purchase.
 			</p>
 			<br/>
 			<a href="G-DubsMusicStore(0).php"><img src="G-Dubs Music Store(0).jpg" alt="Front Cover" width="150" height="200"></a>
