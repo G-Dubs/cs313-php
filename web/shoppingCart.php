@@ -65,6 +65,8 @@
 				middleThree = middleThree.toString();
 				lastFour = lastFour.toString();
 
+				var phoneNumber = areaCode + middleThree + lastFour;
+				/*
 				fq = fq.toString();
 				sq = sq.toString();
 				tq = tq.toString();
@@ -72,11 +74,10 @@
 
 				month = month.toString();
 				year = year.toString();
-
-				var phoneNumber = areaCode + middleThree + lastFour;
+		
 				var cardNumber = fq + sq + tq + lq; 
 				var eDate = month + "/" + year;
-
+				*/
 				var first = true;
 				var last = true;
 				var add = true;
@@ -84,8 +85,10 @@
 				var st = true;
 				var zCode = true;
 				var phone = true;
+				/*
 				var card = true;
 				var date = true;
+				*/
 				var message = "";
 
 				if (fName == "") 
@@ -243,17 +246,18 @@
 						document.getElementById('month').focus;
 					}
 					*/
-					else
-					{
-						//code//
-					} 
+					return false;
 				}
+				else
+				{
+					return true;
+				} 
 			}
 		</script>
 	</head>
 	<body>
 		<h1>Instrument Selection</h1>  
-		<form id="form1" action="checkOut.php" method="POST">
+		<form id="form1" action="checkOut.php" onsubmit="return validate()" method="POST">
 			<p>  
 				<table>
 					<tr>
