@@ -25,7 +25,7 @@
 		<br/>
 		<br/>
 		<button type="button"><a href="G-Dubs Music Store.php">Home</a></button>
-		<img src="Indigo Background.jpg" alt="Banner" width="950" height="1">
+		<img src="Indigo Background.jpg" alt="Banner" width="1200" height="1">
 		<button type="button"><a href="shoppingCart.php">Shopping Cart</a></button>
 	</body>
 </html>
