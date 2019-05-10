@@ -7,7 +7,18 @@
 	</head>
 	<body>
 		<div>
-			Hello World
+			To edit your purchases, click Return to Cart.
+		</div>
+		<div>
+			These are the items you will purchase.
+		</div>
+		<div>
+			This is the total cost of your purchase.
+		</div>	
+		<div>
+			<button type="reset"> Reset </button>
+			<img src="Indigo Background.jpg" alt="Banner" width="1130" height="1">
+			<button type="button"><a href="shoppingCart.php">Return to Cart</a></button>
 		</div>
 	</body>
 </html>

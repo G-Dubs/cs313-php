@@ -379,7 +379,7 @@
 				</table>
 			</p> 
 			<p>   
-				<button type="reset" onclick="resetFunction()"> Reset </button>
+				<button type="reset"> Reset </button>
 				<button type="submit" onclick="validate()"> Submit </button>
 			</p>
 		</form> 
