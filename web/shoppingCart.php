@@ -338,12 +338,13 @@
 					<td> <br/> $569.00 </td>
 				</tr>
 			</table>
+			<!--
 			<div>
 				<h3>Select Payment Type</h3>                                                 
 				<input type="radio" name="visa"> Visa                                       <br/>
 				<input type="radio" name="mastercard"> MasterCard                           <br/>
 				<input type="radio" name="amex"> American Express                           <br/>
-			</div> 
+			</div>	 
 			<p>
 				<table>
 					<tr>
@@ -370,6 +371,7 @@
 					</tr>
 				</table>
 			</p>
+			--> 
 			<p>   
 				<input type="button" onclick="resetFunction()" value="Reset">
 				<input type="button" onclick="validate()" value="Submit">
