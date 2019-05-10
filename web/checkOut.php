@@ -14,6 +14,9 @@
 				These are the items you will purchase:
 				<?php
 					foreach($_POST["item"] as $items)
+					{
+						echo $items;
+					}
 				?>
 			</div>
 			<div>
