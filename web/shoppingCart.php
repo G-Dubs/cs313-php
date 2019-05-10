@@ -5,7 +5,7 @@
 		<title>Form Validation</title>
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
 		<script type="text/javascript">
-
+			/*
 			function totalFunction()
 			{
 				var p = document.getElementById('piccolo').checked;
@@ -39,7 +39,7 @@
 
 				document.getElementById("total").value = total;
 			}
-
+			*/
 			function validate()
 			{
 				var fName = document.getElementById('firstName').value;
@@ -256,7 +256,7 @@
 	</head>
 	<body>
 		<h1>Instrument Selection</h1>  
-		<form id="form1">
+		<form id="form1" action="checkOut.php" method="POST">
 			<p>  
 				<table>
 					<tr>
