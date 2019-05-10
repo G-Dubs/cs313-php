@@ -9,12 +9,20 @@
 		<div>
 			To edit your purchases, click Return to Cart.
 		</div>
-		<div>
-			These are the items you will purchase.
-		</div>
-		<div>
-			This is the total cost of your purchase.
-		</div>	
+		<p>
+			<div>
+				These are the items you will purchase:
+				<?php
+					foreach($_POST["item"] as $items)
+				?>
+			</div>
+			<div>
+				This is your shipping address:
+			</div>
+			<div>
+				This is the total cost of your purchase:
+			</div>
+		</p>	
 		<div>
 			<button type="reset"> Reset </button>
 			<img src="Indigo Background.jpg" alt="Banner" width="1130" height="1">
