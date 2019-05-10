@@ -344,9 +344,11 @@
 				<input type="radio" name="visa"> Visa                                       <br/>
 				<input type="radio" name="mastercard"> MasterCard                           <br/>
 				<input type="radio" name="amex"> American Express                           <br/>
-			</div>	 
+			</div>
+			-->	 
 			<p>
 				<table>
+					<!--
 					<tr>
 						<td colspan="3"> Card Number: </td>
 					</tr>
@@ -366,12 +368,12 @@
 					<tr>
 						<td colspan="3"> Total: </td>
 					</tr>
+					-->
 					<tr>
 						<td colspan="3"><input type="textarea" id="total" rows="1" cols="7" size="7" readonly></td>
 					</tr>
 				</table>
-			</p>
-			--> 
+			</p> 
 			<p>   
 				<input type="button" onclick="resetFunction()" value="Reset">
 				<input type="button" onclick="validate()" value="Submit">
