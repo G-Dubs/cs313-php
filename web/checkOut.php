@@ -16,7 +16,7 @@
 				</span>
 				<span class="second">
 					<?php
-						foreach($_POST["item"] as $i=> $items)
+						foreach($_POST["item"] as $i => $items)
 						{							
 							if ($i == (count($_POST["item"]) -1))
 							{
@@ -31,6 +31,19 @@
 				</span>
 				<div>
 					This is your shipping address:
+					<?php
+						foreach($_POST["address"] as $a => $address)
+						{							
+							if (count($_POST["address"]) ==  )
+							{
+								echo "$address,";
+							}
+							else
+							{
+								echo "$address";
+							}
+						}
+					?>
 				</div>
 				<div>
 					This is the total cost of your purchase:
