@@ -18,6 +18,7 @@
 					foreach($_POST["item"] as $i=> $items)
 					{
 						echo "   $i   ";
+						echo "   count($_POST["item"])   ";
 
 						if (i == count($_POST["item"]) -1)
 						{
