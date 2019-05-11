@@ -5,7 +5,6 @@
 		<title>Form Validation</title>
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
 		<script type="text/javascript">
-			/*
 			function totalFunction()
 			{
 				var p = document.getElementById('piccolo').checked;
@@ -39,7 +38,7 @@
 
 				document.getElementById("total").value = total;
 			}
-			*/
+			
 			function validate()
 			{
 				var fName = document.getElementById('firstName').value;
@@ -52,21 +51,14 @@
 				var areaCode = document.getElementById('areacode').value;
 				var middleThree = document.getElementById('middleThree').value;
 				var lastFour = document.getElementById('lastFour').value;
+				/*
 				var fq = document.getElementById('firstQuarter').value;
 				var sq = document.getElementById('secondQuarter').value;
 				var tq = document.getElementById('thirdQuarter').value;
 				var lq = document.getElementById('lastQuarter').value;
 				var month = document.getElementById('month').value;
 				var year = document.getElementById('year').value;        
-
-				zip = zip.toString();
-
-				areaCode = areaCode.toString();
-				middleThree = middleThree.toString();
-				lastFour = lastFour.toString();
-
-				var phoneNumber = areaCode + middleThree + lastFour;
-				/*
+				
 				fq = fq.toString();
 				sq = sq.toString();
 				tq = tq.toString();
@@ -78,6 +70,14 @@
 				var cardNumber = fq + sq + tq + lq; 
 				var eDate = month + "/" + year;
 				*/
+				
+				zip = zip.toString();
+				areaCode = areaCode.toString();
+				middleThree = middleThree.toString();
+				lastFour = lastFour.toString();
+
+				var phoneNumber = areaCode + middleThree + lastFour;
+				
 				var first = true;
 				var last = true;
 				var add = true;
@@ -336,7 +336,7 @@
 				</tr>
 				<tr>
 					<td>
-						<input type="checkbox" id="cymbals" name="item[]" value="Sambian Xs20 Cymbals Super Set with Free 10\" Splash & 18\" Crash" onclick="totalFunction()">
+						<input type="checkbox" id="cymbals" name="item[]" value="Sambian Xs20 Cymbals Super Set with Free 10&quot; Splash &amp; 18&quot; Crash" onclick="totalFunction()">
 					</td>
 					<td><img src="Cymbals.jpg" alt="Cymbals" width="100" height="83"></td>
 					<td>
