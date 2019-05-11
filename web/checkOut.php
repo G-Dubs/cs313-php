@@ -10,9 +10,6 @@
 			To edit your purchases, click Return to Cart.
 		</div>
 		<p>
-			<div>
-				These are the items you will purchase:
-			</div>
 			<span class="first">
 				These are the items you will purchase:
 			</span>
