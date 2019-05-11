@@ -13,36 +13,29 @@
 			<div>
 				These are the items you will purchase:
 			</div>
-			<div class="inline">
+			<span class="first">
+				These are the items you will purchase:
+			</span>
+			<span class="second">
 				<?php
 					foreach($_POST["item"] as $i=> $items)
 					{
-						echo "<table>
-									<tr>";
-						
 						if (i == count($_POST["item"]) -1)
 						{
-							echo "<td>
-										$items.
-									</td>";
+							echo "$items.";
 						}
 						else
 						{
-							echo "<td>
-										$items, 
-									</td>";	
+							echo "$items, ";	
 						}
-
-						echo "</tr>
-							</table>";
 					}
 				?>
-			</div>
+			</span>
 			<div>
 				This is your shipping address:
 			</div>
 			<div>
-				This is the total cost of your purchase: &nbsp; $
+				This is the total cost of your purchase:
 				<?php
 					echo $_POST["total"];
 				?>

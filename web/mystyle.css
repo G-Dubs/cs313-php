@@ -16,6 +16,15 @@ div{
   	color: whitesmoke;
 }
 
-div.inline{
+span.first {
+	display:inline-block;
+	vertical-align: top;
+	color: whitesmoke;
+}
+
+span.second {
 	display: inline-block;
+	width: 360px; 
+	vertical-align: top;
+	color: whitesmoke;
 }
