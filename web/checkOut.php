@@ -18,6 +18,9 @@
 					<?php
 						foreach($_POST["item"] as $i=> $items)
 						{
+							$theCount = count($_POST["item"]);
+							echo "count:$theCount   "; 
+							/*
 							if (i == count($_POST["item"]) -1)
 							{
 								echo "$items.";
@@ -26,6 +29,8 @@
 							{
 								echo "$items, ";	
 							}
+							*/
+							echo "i:$i   ";
 						}
 					?>
 				</span>
