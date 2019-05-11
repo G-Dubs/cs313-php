@@ -15,3 +15,7 @@ table{
 div{
   	color: whitesmoke;
 }
+
+div.inline{
+	display: inline-block;
+}
