@@ -17,8 +17,10 @@
 				<?php
 					foreach($_POST["item"] as $i=> $items)
 					{
+						$index = count($_POST["item"]);
+
 						echo "   $i   ";
-						echo '   count($_POST["item"])   ';
+						echo "   $index   ";
 
 						if (i == count($_POST["item"]) -1)
 						{
