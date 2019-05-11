@@ -42,7 +42,10 @@
 				This is your shipping address:
 			</div>
 			<div>
-				This is the total cost of your purchase:
+				This is the total cost of your purchase: &nbsp; $
+				<?php
+					echo $_POST["total"];
+				?>
 			</div>
 		</p>	
 		<div>

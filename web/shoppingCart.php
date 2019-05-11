@@ -382,7 +382,7 @@
 						<td colspan="3"> Total: </td> 
 					</tr>
 					<tr>
-						<td colspan="3"><input type="textarea" id="total" rows="1" cols="7" size="7" readonly></td>
+						<td colspan="3"><input type="textarea" id="total" name="total" rows="1" cols="7" size="7" readonly></td>
 					</tr>
 				</table>
 			</p> 
