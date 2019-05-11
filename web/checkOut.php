@@ -34,7 +34,7 @@
 					<?php
 						foreach($_POST["address"] as $a => $address)
 						{							
-							if (count($_POST["address"]) ==  )
+							if (count($_POST["address"]) == 1)
 							{
 								echo "$address,";
 							}
