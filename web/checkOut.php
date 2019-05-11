@@ -10,32 +10,34 @@
 			To edit your purchases, click Return to Cart.
 		</div>
 		<p>
-			<span class="first">
-				These are the items you will purchase:
-			</span>
-			<span class="second">
-				<?php
-					foreach($_POST["item"] as $i=> $items)
-					{
-						if (i == count($_POST["item"]) -1)
-						{
-							echo "$items.";
-						}
-						else
-						{
-							echo "$items, ";	
-						}
-					}
-				?>
-			</span>
 			<div>
-				This is your shipping address:
-			</div>
-			<div>
-				This is the total cost of your purchase:
-				<?php
-					echo $_POST["total"];
-				?>
+				<span class="first">
+					These are the items you will purchase:
+				</span>
+				<span class="second">
+					<?php
+						foreach($_POST["item"] as $i=> $items)
+						{
+							if (i == count($_POST["item"]) -1)
+							{
+								echo "$items.";
+							}
+							else
+							{
+								echo "$items, ";	
+							}
+						}
+					?>
+				</span>
+				<div>
+					This is your shipping address:
+				</div>
+				<div>
+					This is the total cost of your purchase:
+					<?php
+						echo $_POST["total"];
+					?>
+				</div
 			</div>
 		</p>	
 		<div>
