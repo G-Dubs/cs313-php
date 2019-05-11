@@ -17,8 +17,8 @@
 				<span class="second">
 					<?php
 						foreach($_POST["item"] as $i=> $items)
-						{
-							if (i == (count($_POST["item"]) -1))
+						{							
+							if (i === (count($_POST["item"]) -1))
 							{
 								echo "$items.";
 							}
