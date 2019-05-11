@@ -17,6 +17,8 @@
 				<?php
 					foreach($_POST["item"] as $i=> $items)
 					{
+						echo "   $i   ";
+
 						if (i == count($_POST["item"]) -1)
 						{
 							echo "$items.";
