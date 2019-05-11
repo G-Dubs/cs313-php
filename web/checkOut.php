@@ -15,14 +15,24 @@
 				<?php
 					foreach($_POST["item"] as $i=> $items)
 					{
-						if (i == count($_POST["item"]))
+						echo "<table>
+									<tr>";
+						
+						if (i == count($_POST["item"]) -1)
 						{
-							echo "$items.";
+							echo "<td>
+										$items.
+									</td>";
 						}
 						else
 						{
-							echo "$items, ";	
+							echo "<td>
+										$items, 
+									</td>";	
 						}
+
+						echo "</tr>
+							</table>";
 					}
 				?>
 			</div>
