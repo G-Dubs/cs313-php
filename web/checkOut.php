@@ -12,31 +12,31 @@
 		<p>
 			<div>
 				These are the items you will purchase:
-				<div class="inline">
-					<?php
-						foreach($_POST["item"] as $i=> $items)
+			</div>
+			<div class="inline">
+				<?php
+					foreach($_POST["item"] as $i=> $items)
+					{
+						echo "<table>
+									<tr>";
+						
+						if (i == count($_POST["item"]) -1)
 						{
-							echo "<table>
-										<tr>";
-							
-							if (i == count($_POST["item"]) -1)
-							{
-								echo "<td>
-											$items.
-										</td>";
-							}
-							else
-							{
-								echo "<td>
-											$items, 
-										</td>";	
-							}
-
-							echo "</tr>
-								</table>";
+							echo "<td>
+										$items.
+									</td>";
 						}
-					?>
-				</div>
+						else
+						{
+							echo "<td>
+										$items, 
+									</td>";	
+						}
+
+						echo "</tr>
+							</table>";
+					}
+				?>
 			</div>
 			<div>
 				This is your shipping address:
