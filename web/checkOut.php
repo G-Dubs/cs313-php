@@ -13,9 +13,16 @@
 			<div>
 				These are the items you will purchase:
 				<?php
-					foreach($_POST["item"] as $items)
+					foreach($_POST["item"] as $i=> $items)
 					{
-						echo $items;
+						if (i == $_POST["item"].length())
+						{
+							echo "$items.";
+						}
+						else
+						{
+							echo "$items, ";	
+						}
 					}
 				?>
 			</div>
