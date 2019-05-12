@@ -12,13 +12,13 @@
 				<td>
 					Here at G-Dubs Music Store, we carry all a musician could ever want!  From instruments to guide books, to   <br/>
 					stands, and even more. Our staff are all very knowledgable too, so they can help you find what you need.    <br/>
-																																							<br/>
+																																									<br/>
 					G-Dubs Music Store exists to carry the sweet sound of music to all the world.  Whether you like rock, pop,  <br/>
 					rap, blues, band music, classical, or any other style, we can help you to enjoy your favorite music!        <br/>
-																																							<br/>
+																																									<br/>
 					We have a wide assortment of instruments and offer competitve prices.  Click on the button at the bottom    <br/>
 					of the page to view our catalog of instruments and accessories.                                             <br/>
-																																							<br/>
+																																									<br/>
 					We even sell the signature G-Dubs Scenic View Calendars!  Also, ask about our free coupons to one of our    <br/>
 					partner companies, Not Just Salad and G-Dubs Royal Ski Resorts.  Purchases over a certain amount might      <br/>
 					qualify you to recieve one or more premium coupons!                                                         <br/>
@@ -26,10 +26,10 @@
 					<img src="G-Dubs Royal Ski Resorts.jpg" alt="Ski Resort" width="175" height="175">
 					<img src="Indigo Background.jpg" alt="Banner" width="190" height="10">
 					<img src="Not Just Salad.jpg" alt="Salad" width="200" height="175"> 
-					<img src="Indigo Background.jpg" alt="Banner" width="175" height="10">                                      
+					<img src="Indigo Background.jpg" alt="Banner" width="175" height="10">                                      <br/>
 					
 					Come stop by.  We're open from 10:00 AM - 10:00 PM.                                                    <br/><br/>
-					We are located at:
+					We are located at:																														<br/>
 				</td>
 				<td>
 					<img src="G-Dubs Logo.jpg" alt="Logo" width="600" height="485">
