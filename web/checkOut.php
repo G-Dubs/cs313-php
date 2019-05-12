@@ -34,11 +34,9 @@
 					<?php
 						foreach($_POST["address"] as $a => $address)
 						{				
-							echo $a;
-
 							if ($a == 1)
 							{
-								echo "$address,";
+								echo "$address, ";
 							}
 							else
 							{
