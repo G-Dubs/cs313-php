@@ -32,7 +32,7 @@
 				<div>
 					This is your shipping address:
 					<?php
-						foreach($_POST["address"] as $a => $address)
+						foreach($_POST["address"] as $address)
 						{							
 							if (count($_POST["address"]) == 1)
 							{
@@ -40,7 +40,7 @@
 							}
 							else
 							{
-								echo "$address";
+								echo $address;
 							}
 						}
 					?>
@@ -54,13 +54,9 @@
 			</div>
 		</p>	
 		<div>
-			<button type="reset"> Reset </button>
-			<img src="Indigo Background.jpg" alt="Banner" width="1130" height="1">
 			<button type="button"><a href="shoppingCart.php">Return to Cart</a></button>
+			<img src="Indigo Background.jpg" alt="Banner" width="1130" height="1">
+			<button type="button"><a href="done.php" Checkout </button>			
 		</div>
 	</body>
 </html>
-
-<?php
-
-?>
