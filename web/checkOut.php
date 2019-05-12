@@ -32,11 +32,11 @@
 				<div>
 					This is your shipping address:
 					<?php
-						foreach($_POST["address"] as $address)
+						foreach($_POST["address"] as $a => $address)
 						{				
-							echo count($_POST["address"]);
-							 			
-							if (count($_POST["address"]) == 1)
+							echo $a;
+
+							if ($a == 1)
 							{
 								echo "$address,";
 							}

@@ -281,7 +281,7 @@
 						<td> Extension: </td>
 					</tr>
 					<tr>
-						<td colspan="5"><input type="textarea" id="address[]" name="address" rows="1" cols="50" size="25" required></td>                                                                 
+						<td colspan="5"><input type="textarea" id="address" name="address[]" rows="1" cols="50" size="25" required></td>                                                                 
 						<td><input type="textarea" id="city" name="address[]" rows="1" cols="30" size="20" required></td>                                                                 
 						<td><input type="textarea" id="state"  name="address[]" rows="1" cols="15" size="15" required></td>                                                                 
 						<td><input type="textarea" id="zipcode" name="address[]" rows="1" cols="5" size="5" maxlength="5" required></td>
