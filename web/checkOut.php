@@ -30,8 +30,8 @@
 							}
 						?>
 					</span>
-					<br/>
 				</div>
+				<br/>
 				<div>
 					<div>
 						This is your shipping address:
@@ -53,8 +53,8 @@
 							}
 						?>
 					</div>
-					<br/>
 				</div>
+				<br/>
 				<div>
 					<div>
 						This is the total cost of your purchase:
