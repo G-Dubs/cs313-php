@@ -38,6 +38,10 @@
 							{
 								echo "$address, ";
 							}
+							else if (($a == 3 ) && ($_POST[4]))
+							{
+								echo "$address-";
+							}
 							else
 							{
 								echo "$address ";
