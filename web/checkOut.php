@@ -6,6 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
 	</head>
 	<body>
+		<h1>
+			Checkout Confirmation
+		</h1>
 		<div>
 			To edit your purchases, click Return to Cart.
 		</div>
