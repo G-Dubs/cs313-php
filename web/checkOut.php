@@ -40,7 +40,7 @@
 							}
 							else
 							{
-								echo $address;
+								echo "$address";
 							}
 						}
 					?>
@@ -56,7 +56,7 @@
 		<div>
 			<button type="button"><a href="shoppingCart.php">Return to Cart</a></button>
 			<img src="Indigo Background.jpg" alt="Banner" width="1130" height="1">
-			<button type="button"><a href="done.php" Checkout </button>			
+			<button type="button"><a href="done.php"> Checkout </button>			
 		</div>
 	</body>
 </html>
