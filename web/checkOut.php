@@ -11,50 +11,56 @@
 		</div>
 		<p>
 			<div>
-				<span class="first">
-					These are the items you will purchase:
-				</span>
-				<span class="second">
-					<?php
-						foreach($_POST["item"] as $i => $items)
-						{							
-							if ($i == (count($_POST["item"]) -1))
-							{
-								echo "$items.";
-							}
-							else
-							{
-								echo "$items, ";	
-							}
-						}
-					?>
-				</span>
 				<div>
-					This is your shipping address:
-					<?php
-						foreach($_POST["address"] as $a => $address)
-						{				
-							if ($a == 1)
-							{
-								echo "$address, ";
+					<span class="first">
+						These are the items you will purchase:
+					</span>
+					<span class="second">
+						<?php
+							foreach($_POST["item"] as $i => $items)
+							{							
+								if ($i == (count($_POST["item"]) -1))
+								{
+									echo "$items.";
+								}
+								else
+								{
+									echo "$items, ";	
+								}
 							}
-							else if ($a == 3 )
-							{
-								echo "$address-";
-							}
-							else
-							{
-								echo "$address ";
-							}
-						}
-					?>
+						?>
+					</span>
 				</div>
 				<div>
-					This is the total cost of your purchase:
-					<?php
-						echo $_POST["total"];
-					?>
-				</div
+					<div>
+						This is your shipping address:
+						<?php
+							foreach($_POST["address"] as $a => $address)
+							{				
+								if ($a == 1)
+								{
+									echo "$address, ";
+								}
+								else if ($a == 3 )
+								{
+									echo "$address-";
+								}
+								else
+								{
+									echo "$address ";
+								}
+							}
+						?>
+					</div>
+				</div>
+				<div>
+					<div>
+						This is the total cost of your purchase:
+						<?php
+							echo $_POST["total"];
+						?>
+					</div>
+				</div>
 			</div>
 		</p>	
 		<div>
