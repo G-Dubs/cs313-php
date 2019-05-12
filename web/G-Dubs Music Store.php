@@ -23,9 +23,9 @@
 					partner companies, Not Just Salad and G-Dubs Royal Ski Resorts.  Purchases over a certain amount might      <br/>
 					qualify you to recieve one or more premium coupons!                                                         <br/>
 			
-					<img src="G-Dubs Royal Ski Resorts.jpg" alt="Ski Resort" width="150" height="150">
+					<img src="G-Dubs Royal Ski Resorts.jpg" alt="Ski Resort" width="175" height="175">
 					<img src="Indigo Background.jpg" alt="Banner" width="190" height="10">
-					<img src="Not Just Salad.jpg" alt="Salad" width="200" height="150"> 
+					<img src="Not Just Salad.jpg" alt="Salad" width="175" height="175"> 
 					<img src="Indigo Background.jpg" alt="Banner" width="175" height="10">                                      <br/>
 					
 					Come stop by.  We're open from 10:00 AM - 10:00 PM.                                                    <br/><br/>
