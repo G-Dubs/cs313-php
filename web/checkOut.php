@@ -40,7 +40,7 @@
 							}
 							else
 							{
-								echo "$address";
+								echo "$address ";
 							}
 						}
 					?>
