@@ -34,16 +34,8 @@ catch (PDOException $ex)
 		<h1> Users </h1>
 		<form action="Display Users.php" method="POST">
 			Username: <input type="text" name="username" />
-			Book: <input type="text" name="book" />
-			</br>
+			</br></br>
 			<button type="submit">Search!</button>
-			<?php
-				foreach ($db->query('SELECT * FROM Users') as $row) 
-				{
-					echo "<a href='User Details.php?id=" . $row['username'] . "'>";
-					echo $row['username'] . "</a><br />\n";
-				}
-			?>
 		</form>
 	</body>
 </html>
