@@ -34,13 +34,13 @@ catch (PDOException $ex)
 		<h1>Search results</h1>
 		<hr />
 		<table>
-		<?php
-			$name = $_POST["username"];
-			foreach ($db->query("SELECT * FROM Users WHERE username = '$name'") as $row) 
-			{
-				echo "<tr><td><b>" . $row['name'] . "\"</td></tr>\n";
-			}
-		?>
+			<?php
+				$name = $_POST["username"];
+				foreach ($db->query("SELECT * FROM Users WHERE username = '$name'") as $row) 
+				{
+					echo "<tr><td><b>" . $row['username'] . "\"</td></tr>\n";
+				}
+			?>
 		</table>
 		<a href="team_activity_05.php">Back to scripture resources</a>
 	</body>
