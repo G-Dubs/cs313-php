@@ -28,23 +28,22 @@ catch (PDOException $ex)
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>Calendar Database</title>
+		<title>Scripture Details</title>
 	</head>
 	<body>
-		<h1> Users </h1>
-		<form action="Display Users.php" method="POST">
-			Username: <input type="text" name="username" />
-			Book: <input type="text" name="book" />
-			</br>
-			<button type="submit">Search!</button>
-			<?php
-				foreach ($db->query('SELECT * FROM Users') as $row) 
-				{
-					echo "<a href='User Details.php?id=" . $row['username'] . "'>";
-					echo $row['username'] . "</a><br />\n";
-				}
-			?>
-		</form>
+		<hr />
+		<?php
+			$id = $_GET["id"];
+			// This should not be a for loop since there will only ever be
+			// one scripture with the given ID. However I do not know
+			// yet how to do it any other way.
+			foreach ($db->query("SELECT * FROM Users WHERE id = '$id'") as $row) 
+			{
+				echo "<b>" . $row['username'] . " " . $row["region"] . "</b> - \"";
+				echo "\"</td></tr>\n";
+			}
+		?>
+		<br />
+		<a href="My Database.php">Back to scripture resources</a>
 	</body>
 </html>
-	 
