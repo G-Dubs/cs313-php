@@ -28,21 +28,20 @@ catch (PDOException $ex)
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../assignments.css">
     <title>Books</title>
 </head>
-<body>
-    <h1>Search results</h1>
-    <hr />
-    <table>
-    <?php
-    $book = $_POST["book"];
-    foreach ($db->query("SELECT * FROM Scriptures WHERE book = '$book'") as $row) {
-        echo "<tr><td><b>" . $row['book'] . " " . $row["chapter"] . ":";
-        echo $row["verse"] . "</b></td><td>-</td><td>\"" . $row['content'] . "\"</td></tr>\n";
-    }
-    ?>
-    </table>
-    <a href="team_activity_05.php">Back to scripture resources</a>
-</body>
+	<body>
+		<h1>Search results</h1>
+		<hr />
+		<table>
+		<?php
+			$name = $_POST["username"];
+			foreach ($db->query("SELECT * FROM Users WHERE username = '$name'") as $row) 
+			{
+				echo "<tr><td><b>" . $row['name'] . "\"</td></tr>\n";
+			}
+		?>
+		</table>
+		<a href="team_activity_05.php">Back to scripture resources</a>
+	</body>
 </html>
