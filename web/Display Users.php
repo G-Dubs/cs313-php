@@ -37,10 +37,10 @@ catch (PDOException $ex)
 			<?php
 				$name = $_POST["username"];
 				foreach ($db->query("SELECT u.username, r.regionname FROM Users u WHERE u.username = '$name' 
-					LEFT JOIN RegionJoin rj ON u.userid = rj.userid 
-					LEFT JOIN Region r ON rj.regionid = r.regionid") as $row) 
+													LEFT JOIN RegionJoin rj ON u.userid = rj.userid 
+													LEFT JOIN Region r ON rj.regionid = r.regionid") as $row) 
 				{
-					echo "<tr><td>" . $row['u.username'] . "</td><td>" . $row['r.regionid'] . "</td></tr>\n";
+					echo "<tr><td>" . $row['u.username'] . "</td><td>" . $row['r.regionname'] . "</td></tr>\n";
 				}
 			?>
 		</table>
