@@ -13,7 +13,7 @@
 	<body>
 		<h1>Login or create a new account</h1>
 		<hr />
-		<form action="Calendar Account.php" method="POST">
+		<form action="Calendar Display.php" method="POST">
 			<table>
 				<tr>
 					<td>
@@ -33,7 +33,7 @@
 				</tr>
 			</table>
 			<button type="submit">Login</button>
-			<button type="button" onclick="window.location.href = 'Calendar Display.php'">Create</button>
+			<button type="button" onclick="window.location.href = 'Calendar Account.php'">Create</button>
 		</form>
 	</body>
 </html>
