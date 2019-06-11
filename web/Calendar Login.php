@@ -13,9 +13,11 @@
 	<body>
 		<h1>Login or create a new account</h1>
 		<hr />
-		</br>
-		<a href="Calendar Display.php">Login</a>
-		</br>
-		<a href="Calendar Account.php">Create</a>
+		<form action="Calendar Account.php" method="POST">
+			Username: <input type="text" name="username" />
+			</br></br>
+			<button type="submit">Login</button>
+			<button type="button" a href="Calendar Display.php">Create</button>
+		</form>
 	</body>
 </html>
