@@ -33,7 +33,7 @@
 				</tr>
 			</table>
 			<button type="submit">Login</button>
-			<button type="button"><a href="Calendar Display.php">Create</a></button>
+			<button type="button" onclick="window.location.href = 'Calendar Display.php'">Create</button>
 		</form>
 	</body>
 </html>
