@@ -14,7 +14,7 @@
 		<?php
 			$name = $_POST["username"];
 
-			echo "<h1> Welcome " . "$username" . "</h1> \n";
+			echo "<h1> Welcome $name </h1> \n";
 			echo "<hr /> \n";
 		?>
 
