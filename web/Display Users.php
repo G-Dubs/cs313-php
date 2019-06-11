@@ -36,9 +36,10 @@ catch (PDOException $ex)
 		<table>
 			<?php
 				$name = $_POST["username"];
-				foreach ($db->query("SELECT u.username, r.regionname FROM Users u WHERE u.username = '$name' 
-													LEFT JOIN RegionJoin rj ON u.userid = rj.userid 
-													LEFT JOIN Region r ON rj.regionid = r.regionid") as $row) 
+				foreach ($db->query("SELECT u.username, r.regionname FROM Users u  
+													 LEFT JOIN RegionJoin rj ON u.userid = rj.userid 
+													 LEFT JOIN Regions r ON rj.regionid = r.regionid
+													 WHERE u.username = '$name'") as $row)
 				{
 					echo "<tr><td>" . $row['u.username'] . "</td><td>" . $row['r.regionname'] . "</td></tr>\n";
 				}
