@@ -14,10 +14,24 @@
 		<h1>Login or create a new account</h1>
 		<hr />
 		<form action="Calendar Account.php" method="POST">
-			Username: <input type="text" name="username" />
-			</br>
-			Password: <input type="text" name="password" />
-			</br>
+			<table>
+				<td>
+					<tr>
+						Username: 
+					</tr>
+					<tr>
+						<input type="text" name="username" />
+					</tr>
+				</td>
+				<td>
+					<tr>
+						Password: 
+					</tr>
+					<tr>
+						<input type="text" name="password" />
+					</tr>
+				</td>
+			</table>
 			<button type="submit">Login</button>
 			<button type="button" a href="Calendar Display.php">Create</button>
 		</form>
