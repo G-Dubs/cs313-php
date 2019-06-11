@@ -41,7 +41,7 @@ catch (PDOException $ex)
 													 LEFT JOIN Regions r ON rj.regionid = r.regionid
 													 WHERE u.username = '$name'") as $row)
 				{
-					echo "<tr><td>" . $row['u.username'] . "</td><td>" . $row['r.regionname'] . "</td></tr>\n";
+					echo "<tr><td>" . $row['username'] . "</td><td>" . $row['regionname'] . "</td></tr>\n";
 				}
 			?>
 		</table>
