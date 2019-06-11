@@ -15,22 +15,22 @@
 		<hr />
 		<form action="Calendar Account.php" method="POST">
 			<table>
-				<td>
-					<tr>
+				<tr>
+					<td>
 						Username: 
-					</tr>
-					<tr>
+					</td>
+					<td>
 						<input type="text" name="username" />
-					</tr>
-				</td>
-				<td>
-					<tr>
+					</td>
+				</tr>	
+				<tr>
+					<td>
 						Password: 
-					</tr>
-					<tr>
+					</td>
+					<td>
 						<input type="text" name="password" />
-					</tr>
-				</td>
+					</td>
+				</tr>
 			</table>
 			<button type="submit">Login</button>
 			<button type="button" a href="Calendar Display.php">Create</button>
