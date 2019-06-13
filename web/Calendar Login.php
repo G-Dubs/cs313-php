@@ -1,7 +1,3 @@
-<?php
-	require ("Connect.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +9,7 @@
 	<body>
 		<h1>Login or create a new account</h1>
 		<hr />
-		<form action="Calendar Display.php" method="POST">
+		<form action="Middleman.php" method="POST">
 			<table>
 				<tr>
 					<td>
