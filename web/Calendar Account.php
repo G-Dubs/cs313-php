@@ -47,7 +47,7 @@
 							{
 								echo $row['regionname'] . "</td> <td> <input type='checkbox' name='region[]' value=" .
 									  $row['regionid'] . " required /> </td> </tr> <tr> <td style='text-align:right'; 
-									  width='30'> </td> <td style='vertical-align:text-top; text-align:left'>";
+									  width='100'> </td> <td style='vertical-align:text-top; text-align:left'>";
 							}
 						?>
 					</td>
