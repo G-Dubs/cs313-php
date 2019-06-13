@@ -34,7 +34,7 @@
 						Password: 
 					</td>
 					<td colspan="2">
-						<input type="text" name="password" />
+						<input type="text" name="password" size="22" />
 					</td>
 				</tr>
 				<tr>
