@@ -43,17 +43,16 @@
 					</td>
 					<td>
 						<?php
-							foreach($db->query("SELECT regionid, region FROM Regions") as $row)
+							foreach($db->query("SELECT regionid, regionname FROM Regions") as $row)
 							{
-								echo $row['region'] . "<input type='checkbox' name='region[]' value=" . 
+								echo $row['regionname'] . "<input type='checkbox' name='region[]' value=" . 
 									  $row['regionid'] . " required /> </br>";
 							}
 						?>
 					</td>
 				</tr>
 			</table>
-			<button type="submit">Login</button>
-			<button type="button" onclick="window.location.href = 'Calendar Account.php'">Create</button>
+			<button type="submit">Create</button>
 		</form>
 	</body>
 </html>
