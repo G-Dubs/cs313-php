@@ -26,7 +26,7 @@
 						Username: 
 					</td>
 					<td colspan="2">
-						<input type="text" name="username" size="14" />
+						<input type="text" name="username" />
 					</td>
 				</tr>	
 				<tr>
@@ -34,7 +34,7 @@
 						Password: 
 					</td>
 					<td colspan="2">
-						<input type="text" name="password" size="14" />
+						<input type="text" name="password" />
 					</td>
 				</tr>
 				<tr>
@@ -46,8 +46,8 @@
 							foreach($db->query("SELECT regionid, regionname FROM Regions") as $row)
 							{
 								echo $row['regionname'] . "</td> <td> <input type='checkbox' name='region[]' value=" .
-									  $row['regionid'] . " required /> </td> </tr> <tr> <td style='text-align:right'>
-									  </td> <td style='vertical-align:text-top; text-align:left'>";
+									  $row['regionid'] . " required /> </td> </tr> <tr> <td style='text-align:right'; 
+									  width='25'> </td> <td style='vertical-align:text-top; text-align:left'>";
 							}
 						?>
 					</td>
