@@ -47,7 +47,7 @@
 				<tr>
 					<td> 
 					</td>
-					<td>
+					<td style="vertical-align:text-top">
 						<?php
 							foreach($db->query("SELECT regionid, regionname FROM Regions") as $row)
 							{
