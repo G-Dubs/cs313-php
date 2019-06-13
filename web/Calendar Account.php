@@ -41,13 +41,12 @@
 					<td style="vertical-align:text-top">
 						Region: 
 					</td>
-				</tr>
 					<td style="vertical-align:text-top; text-align:right">
 						<?php
 							foreach($db->query("SELECT regionid, regionname FROM Regions") as $row)
 							{
 								echo $row['regionname'] . "</td> <td> <input type='checkbox' name='region[]' value=" .
-									  $row['regionid'] . " required /> </td> <tr> <td style='vertical-align:text-top'> 
+									  $row['regionid'] . " required /> </td> </tr> <tr> <td style='vertical-align:text-top'> 
 									  </td> <td style='vertical-align:text-top; text-align:right'>";
 							}
 						?>
