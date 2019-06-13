@@ -11,7 +11,7 @@
     <title>Calendar Login</title>
 </head>
 	<body>
-		<h1>Login or create a new account</h1>
+		<h1>Create your new account</h1>
 		<hr />
 		<?php
 			if($_GET['error'] == 'badpw')
