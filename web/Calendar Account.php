@@ -46,8 +46,8 @@
 							foreach($db->query("SELECT regionid, regionname FROM Regions") as $row)
 							{
 								echo $row['regionname'] . "</td> <td> <input type='checkbox' name='region[]' value=" .
-									  $row['regionid'] . " required /> </td> </tr> <tr> <td style='text-align:right'>" .
-									  "&nbsp;" . "</td> <td style='vertical-align:text-top; text-align:left'>";
+									  $row['regionid'] . " required /> </td> </tr> <tr> <td style='text-align:right'>
+									  </td> <td style='vertical-align:text-top; text-align:left'>";
 							}
 						?>
 					</td>
