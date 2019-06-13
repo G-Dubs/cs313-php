@@ -1,7 +1,8 @@
 CREATE TABLE Users
 ( 
     UserId SERIAL PRIMARY KEY,
-    UserName VARCHAR(32)
+    UserName VARCHAR(32),
+    Drowssap VARCHAR(32)
 );
 
 CREATE TABLE Holidays
@@ -84,4 +85,8 @@ INSERT INTO Regions(RegionName, RegionData)
 INSERT INTO RegionJoin(UserId, RegionId)
 	VALUES((SELECT UserId FROM Users WHERE UserName = 'George Wieland'),
 		   (SELECT RegionId FROM Regions WHERE RegionName = 'North America'));
+           
+           
+ALTER TABLE Users 
+	ADD Drowssap VARCHAR(32);
 		
