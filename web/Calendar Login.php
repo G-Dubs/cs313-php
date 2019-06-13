@@ -9,6 +9,12 @@
 	<body>
 		<h1>Login or create a new account</h1>
 		<hr />
+		<?php
+			if($_GET['error'] == 'badpw')
+			{
+				echo "<span style='color:red'> The password does not match. </span>";
+			}
+		?>
 		<form action="Middleman.php" method="POST">
 			<table>
 				<tr>
