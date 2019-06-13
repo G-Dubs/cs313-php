@@ -15,7 +15,7 @@
 				echo "<span style='color:red'> The password does not match. </span>";
 			}
 		?>
-		<form action="Middleman.php" method="POST">
+		<form action="Middleman Verification.php" method="POST">
 			<table>
 				<tr>
 					<td>
