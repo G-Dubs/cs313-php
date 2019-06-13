@@ -26,7 +26,7 @@
 						Username: 
 					</td>
 					<td colspan="2">
-						<input type="text" name="username" size="16" />
+						<input type="text" name="username" size="15" />
 					</td>
 				</tr>	
 				<tr>
@@ -34,7 +34,7 @@
 						Password: 
 					</td>
 					<td colspan="2">
-						<input type="text" name="password" size="16" />
+						<input type="text" name="password" size="15" />
 					</td>
 				</tr>
 				<tr>
