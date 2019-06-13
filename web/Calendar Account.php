@@ -45,6 +45,8 @@
 			</table>
 			<table>
 				<tr>
+					<td> 
+					</td>
 					<td>
 						<?php
 							foreach($db->query("SELECT regionid, regionname FROM Regions") as $row)
