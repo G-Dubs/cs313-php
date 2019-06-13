@@ -5,6 +5,7 @@
 
 	$username = $_POST['username'];
 	$password = $_POST['password'];
+	$region = $_POST['region'];
 	$hashword = password_hash($password, PASSWORD_DEFAULT);
 
 	// Does this username already exist?
@@ -14,8 +15,8 @@
 
 	if ($stmt->rowCount() > 0)
 	{
-		header("Location: Calendar Login.php?error=nameinuse"); // Go back to this page because you picked
-		die();                                                  // the same username as someone else 
+		header("Location: Calendar Account.php?error=nameinuse"); // Go back to this page because you picked
+		die();                                                    // the same username as someone else 
 	}
 
 	// Register a new user
@@ -25,8 +26,16 @@
 	$stmt-> bindValue(':hashword', $hashword, PDO::PARAM_STR);
 	$stmt-> execute();
 
-	$_SESSION["userId"] = $db->lastInsertId(); // Gets the last user id that was used, so it will remember you
+	$userId = $db->lastInsertId(); // Gets the last user id to insert into my database
 
-	header("Location: Calendar Login.php"); // Go back to the login page
+	foreach($region as $homeRegion)
+	{
+		$stmt = $db->prepare("INSERT INTO RegionJoin (userid, regionid) VALUES ($userId, $homeRegion))");
+		$stmt-> execute();
+	}
+
+	$_SESSION["userId"] = $userId; // Gets the user id that was used, so it will remember you
+
+	header("Location: Calendar Login.php"); // Go to the login page
 	die();
 ?>
