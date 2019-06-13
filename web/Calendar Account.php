@@ -43,7 +43,7 @@
 					</td>
 				</tr>
 			</table>
-			<table>
+			<table border="1">
 				<tr>
 					<td> 
 					</td>
