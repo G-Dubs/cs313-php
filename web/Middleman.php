@@ -30,7 +30,7 @@
 
 	foreach($region as $homeRegion)
 	{
-		$stmt = $db->prepare("INSERT INTO RegionJoin (userid, regionid) VALUES ($userId, $homeRegion))");
+		$stmt = $db->prepare("INSERT INTO RegionJoin (userid, regionid) VALUES ($userId, $homeRegion)");
 		$stmt-> execute();
 	}
 
