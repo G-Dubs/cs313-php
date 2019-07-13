@@ -2,5 +2,6 @@
    "editor.tabSize": 3,
    "editor.acceptSuggestionOnEnter": "off",
    "editor.detectIndentation": false,
-   "editor.insertSpaces": false
+	"editor.insertSpaces": false,
+	"FSharp.fsacRuntime": "net"
 }

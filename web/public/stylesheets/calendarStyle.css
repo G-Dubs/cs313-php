@@ -1,0 +1,34 @@
+body {
+  	background-color: indigo;
+}
+
+h1 {
+	color: yellow;
+  	font-family: algerian;
+  	text-align: center;
+}
+
+table.calendar{
+	color: whitesmoke;
+	border-collapse: collapse;	 
+}
+
+div{
+  	color: whitesmoke;
+}
+
+table.calendar th{
+	border: 1px solid yellow; 
+	width: 300px;
+}
+
+table.calendar td{
+	border: 1px solid yellow; 
+	width: 300px;
+	height: 125px;
+	vertical-align: top;
+}
+
+table.login{
+	color: whitesmoke;
+}

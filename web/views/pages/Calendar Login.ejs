@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	 <title>Calendar Login</title>
+	 <link rel="stylesheet" type="text/css" href="stylesheets/calendarStyle.css">
+</head>
+	<body>
+		<h1>Login or create a new account</h1>
+		<hr />
+		<form action="/login" method="POST">
+			<table class='login'>
+				<tr>
+					<td>
+						Username: 
+					</td>
+					<td>
+						<input type="text" name="username" />
+					</td>
+				</tr>	
+				<tr>
+					<td>
+						Password: 
+					</td>
+					<td>
+						<input type="text" name="password" />
+					</td>
+				</tr>
+			</table>
+			<button type="submit">Login</button>
+			<button type="button" onclick="window.location.href = '/account'">Create</button>
+		</form>
+	</body>
+</html>
