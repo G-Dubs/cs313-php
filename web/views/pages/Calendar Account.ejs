@@ -10,7 +10,7 @@
 	<body>
 		<h1>Create your new account</h1>
 		<hr />
-		<form action="/login" method="POST">
+		<form action="/CreateAccount" method="POST">
 			<table class="login">
 				<tr>
 					<td>
@@ -32,11 +32,15 @@
 					<td style="vertical-align:text-top">
 						Region: 
 					</td>
-					<td style="vertical-align:text-top; text-align:left">
-						<% JSON.parse(data).forEach((element)=>{ %>
-								<% include('partials/checkboxes', element) %>
-						<% })	%>
-					</td>
+					<% JSON.parse(data).forEach((element)=>{ %>
+							<td style="vertical-align:text-top; text-align:left">
+								<input type="checkbox" name="Region[]" value="<%= element.regionid %>">
+								<%= element.regionname %>
+							</td>
+						</tr>	
+						<tr>
+							<td> <!-- Empty Cell --> </td>
+					<% })	%>
 				</tr>
 			</table>
 			<button type="submit">Create</button>

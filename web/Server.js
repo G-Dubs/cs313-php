@@ -90,4 +90,42 @@ app.get('/account', (req, res)=>{
 																				})
 })
 
+//Create Account route
+app.post('/CreateAccount', (req, res)=>{
+	let username = req.body.username
+	let password = req.body.password
+	let region = req.body.Region[0]
+
+	bcrypt.hash(password, 10,  (error, hashedpassword)=>{
+											pool.query('INSERT INTO Users(Username, Drowssap) \
+																	 VALUES($1, $2)', [username, hashedpassword],(err, qres)=> {
+															  																		if (err)
+																																	{
+																  																		throw(err)
+																																	}
+																																console.log(username)
+																																console.log(region)  
+															  
+															pool.query('INSERT INTO RegionJoin (UserId, RegionId)    \
+																					 SELECT u.UserId, r.RegionId           \
+																								FROM Users u                  \
+																								CROSS JOIN  Regions r         \
+																										WHERE u.Username = $1   \
+																												AND               \
+																												r.RegionId = $2'),   [username, region], (err, qres)=> {
+																																			if (err)
+																																			{
+																																				console.log(err)
+																																				throw(err)
+																																			}
+																																		}
+																
+																																	res.render('pages/Calendar Login')
+																																})
+										})
+	
+	})
+
+	
+
 app.listen(PORT, () => console.log(`Listening on ${ PORT }!!!`))
